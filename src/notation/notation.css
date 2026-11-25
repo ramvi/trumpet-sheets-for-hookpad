@@ -1,0 +1,93 @@
+.notation-sheet {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 794px; /* 210mm at 96dpi */
+  aspect-ratio: 210 / 297;
+  margin: 0 auto;
+  padding: clamp(20px, 6.5%, 52px) clamp(18px, 6.5%, 52px);
+  background: light-dark(#ffffff, #1c2624);
+  color: light-dark(#111111, #e9eeec);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.10), 0 0 0 1px rgba(0, 0, 0, 0.06);
+  border-radius: 2px;
+}
+
+.notation-sheet-title {
+  margin: 0 0 16px 0;
+  padding: 0;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.25;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.notation-systems {
+  display: block;
+}
+
+.notation-system {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: visible;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.notation-system:last-child {
+  margin-bottom: 0;
+}
+
+.notation-system svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.notation-system svg .abcjs-lyric {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+@page {
+  size: A4 portrait;
+  margin: 13mm 14mm;
+}
+
+@media print {
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .notation-sheet {
+    max-width: none !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    aspect-ratio: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  .notation-sheet-title {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+  }
+
+  .notation-system {
+    margin-bottom: 8px;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+}

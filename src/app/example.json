@@ -1,0 +1,28 @@
+{
+  "notes": [
+    {"beat":1,"duration":1,"sd":"5","octave":-1,"isRest":false},
+    {"beat":2,"duration":1,"sd":"1","octave":0,"isRest":false},
+    {"beat":3,"duration":1,"sd":"2","octave":0,"isRest":false},
+    {"beat":4,"duration":1,"sd":"3","octave":0,"isRest":false},
+    {"beat":5,"duration":3,"sd":"5","octave":0,"isRest":false},
+    {"beat":8,"duration":1,"sd":"3","octave":0,"isRest":false},
+    {"beat":9,"duration":1,"sd":"4","octave":0,"isRest":false},
+    {"beat":10,"duration":1,"sd":"3","octave":0,"isRest":false},
+    {"beat":11,"duration":1,"sd":"2","octave":0,"isRest":false},
+    {"beat":12,"duration":1,"sd":"6","octave":-1,"isRest":false},
+    {"beat":13,"duration":4,"sd":"2","octave":0,"isRest":false},
+    {"beat":17,"duration":1,"sd":"5","octave":-1,"isRest":false},
+    {"beat":18,"duration":1,"sd":"7","octave":-1,"isRest":false},
+    {"beat":19,"duration":1,"sd":"1","octave":0,"isRest":false},
+    {"beat":20,"duration":1,"sd":"2","octave":0,"isRest":false},
+    {"beat":21,"duration":2,"sd":"4","octave":0,"isRest":false},
+    {"beat":23,"duration":1,"sd":"3","octave":0,"isRest":false},
+    {"beat":24,"duration":1,"sd":"2","octave":0,"isRest":false},
+    {"beat":25,"duration":1.5,"sd":"3","octave":0,"isRest":false},
+    {"beat":26.5,"duration":0.5,"sd":"2","octave":0,"isRest":false},
+    {"beat":27,"duration":1,"sd":"1","octave":0,"isRest":false},
+    {"beat":28,"duration":1,"sd":"7","octave":-1,"isRest":false},
+    {"beat":29,"duration":4,"sd":"1","octave":0,"isRest":false}
+  ],
+  "keys": [{ "beat": 1, "scale": "major", "tonic": "F" }]
+}
